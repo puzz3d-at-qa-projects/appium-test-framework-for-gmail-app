@@ -16,6 +16,13 @@ dependencies {
     implementation group: 'io.appium', name: 'java-client', version: '8.1.1'
     implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.18.0'
     implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.18.0'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.18.0'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 }
 
 test {
