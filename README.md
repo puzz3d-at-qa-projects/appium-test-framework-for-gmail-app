@@ -1,6 +1,6 @@
 # Test automation framework for mobile applications
 
-The framework allows testing native, web, and hybrid apps on real mobile devices or emulators.
+The framework allows testing native, web, and hybrid apps on real mobile devices or emulators using Appium server.
 Included demo test connects to the Android emulator, launches the Gmail app, adds a Google account to it, logs in, and finally deletes the account.    
 
 ## Stack
