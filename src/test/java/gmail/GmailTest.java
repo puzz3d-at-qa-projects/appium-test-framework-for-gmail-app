@@ -1,14 +1,10 @@
 package gmail;
 
 import helpers.ContextSwitcher;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 import pom.*;
 
 class GmailTest extends BaseTest {
-
-    static final Logger LOGGER = LogManager.getLogger();
 
     @Test
     void canAddAccountToGmailLogInAndDeleteIt() {
@@ -46,7 +42,6 @@ class GmailTest extends BaseTest {
         var gmailPage = new GmailNativeApp();
 
         gmailPage.removeRecentAppFromMemory(); // had to reload Gmail to get to inbox
-
     }
 
       @Test
