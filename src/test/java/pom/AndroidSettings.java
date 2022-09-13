@@ -17,10 +17,8 @@ public class AndroidSettings extends NativeBaseApp {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'accounts')]")
     WebElement accountsMenu;
-
     @AndroidFindBy(id = "com.android.settings:id/button")
     WebElement removeAccountButton;
-
     @AndroidFindBy(id = "android:id/button1")
     WebElement removeAccountConfirmButton;
 

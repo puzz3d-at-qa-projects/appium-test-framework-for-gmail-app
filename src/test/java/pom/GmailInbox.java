@@ -11,7 +11,6 @@ public class GmailInbox extends NativeBaseApp {
     WebElement searchInMail;
     @AndroidFindBy(id = "com.google.android.gm:id/open_search_view_edit_text")
     WebElement searchInput;
-
     @AndroidFindBy(id = "com.google.android.gm:id/empty_icon")
     WebElement emptySearchIcon;
 

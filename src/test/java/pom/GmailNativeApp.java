@@ -12,10 +12,7 @@ public class GmailNativeApp extends NativeBaseApp {
 
     @HowToUseLocators(androidAutomation = ALL_POSSIBLE, iOSXCUITAutomation = ALL_POSSIBLE)
     @AndroidFindBy(id = "com.google.android.gm:id/welcome_tour_got_it")
-    // id, resource-id com.google.android.gm:id/welcome_tour_got_it
     @AndroidFindBy(id = "com.google.android.gm:id/illustration")
-//    @AndroidFindBy(id = "com.google.android.gm:id/welcome_tour_skip")
-
     WebElement gotItButtonOrEmptyClick;
 
     @HowToUseLocators(androidAutomation = ALL_POSSIBLE, iOSXCUITAutomation = ALL_POSSIBLE)
@@ -25,16 +22,12 @@ public class GmailNativeApp extends NativeBaseApp {
 
     @AndroidFindBy(id = "com.google.android.gm:id/setup_addresses_add_another")
     WebElement addAnEmail;
-
     @AndroidFindBy(id = "com.google.android.gm:id/account_setup_item")
     WebElement googleEmail;
-
     @AndroidFindBy(id = "com.google.android.gms:id/sud_items_switch")
     WebElement backUpSwitch;
-
     @AndroidFindBy(className = "android.widget.Button")
     WebElement acceptButton;
-
     @AndroidFindBy(className = "android.widget.ScrollView")
     WebElement scrollView;
 

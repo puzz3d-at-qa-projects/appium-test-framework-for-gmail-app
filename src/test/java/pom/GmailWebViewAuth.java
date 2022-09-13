@@ -10,19 +10,14 @@ public class GmailWebViewAuth extends NativeBaseApp {
 
     @FindBy(css = "input#identifierId")
     WebElement emailField;
-
     @FindBy(xpath = "//span[text()='Next']")
     WebElement emailNextButton;
-
     @FindBy(name = "password")
     WebElement passwordField;
-
     @FindBy(id = "passwordNext")
     WebElement passwordNextButton;
-
     @FindBy(id = "signinconsentNext")
     WebElement welcomeAgreeButton;
-
     @FindBy(id = "com.google.android.gm:id/avatar")
     WebElement avatar;
 

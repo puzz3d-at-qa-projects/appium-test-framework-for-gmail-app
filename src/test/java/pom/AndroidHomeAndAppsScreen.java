@@ -9,7 +9,6 @@ public class AndroidHomeAndAppsScreen extends NativeBaseApp {
 
     @AndroidFindBy(accessibility = "Gmail")
     WebElement gmailIcon;
-
     @AndroidFindBy(accessibility = "Settings")
     WebElement settingsIcon;
 
